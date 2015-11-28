@@ -5,8 +5,8 @@ hr{margin:0 auto;padding:0px;border-width:0;color:#F5F5F5;background-color:#F5F5
 #desc{display:inline-block;font-weight:300;font-size:30px;margin-top:10px;}
 .underline{text-decoration: underline;}
 .mdl-card {width: 320px;height: 320px;margin:0 auto;}
-#card1 .mdl-card__title {color: #fff;background:url('../img/oneplusx.png') bottom right no-repeat #000;background-size: 370px auto;}
+#card1 .mdl-card__title {color: #fff;background:url('../image/oneplusx.png') bottom right no-repeat #000;background-size: 370px auto;}
 a{text-decoration:none;}
 .mdl-mini-footer{margin-top:50px;}
-#card2 .mdl-card__title {color: #fff;background:url('../img/opengapps.png') bottom right no-repeat #009688;background-position:center;}
+#card2 .mdl-card__title {color: #fff;background:url('../image/opengapps.png') bottom right no-repeat #009688;background-position:center;}
 a{text-decoration:none;}
