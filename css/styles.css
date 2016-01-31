@@ -1,8 +1,6 @@
 body{font-family:Roboto;margin:0;}
-#title{text-align:center;padding-top:100px;padding-bottom:50px;padding-left:5px;padding-right:5px;min-width: 380px;width: 380px;}
-#name{display:inline-block;font-style: italic;font-size:70px;margin-bottom:25px;}
-hr{margin:0 auto;padding:0px;border-width:0;color:#F5F5F5;background-color:#F5F5F5;}
-#desc{display:inline-block;font-weight:300;font-size:30px;margin-top:10px;}
+#title{text-align:center;padding-top:100px;padding-bottom:50px;min-width:380px;width:380px;}
+#logoimage{width:380px;height:auto;}
 .underline{text-decoration: underline;}
 .mdl-card {width: 320px;height: 320px;margin:0 auto;}
 #card1 .mdl-card__title {color: #fff;background:url('../image/oneplusx.png') bottom right no-repeat #000;background-size: 370px auto;}
@@ -10,3 +8,9 @@ a{text-decoration:none;}
 .mdl-mini-footer{margin-top:50px;}
 #card2 .mdl-card__title {color: #fff;background:url('../image/opengapps.png') bottom right no-repeat #009688;background-position:center;}
 a{text-decoration:none;}
+.mdl-demo .is-small-screen #card1{
+float:right;}
+@media screen and (min-width: 840px) {
+#card1 {float:left;margin-left:30px;}
+#card2 {float:right;margin-right:30px;}
+}
