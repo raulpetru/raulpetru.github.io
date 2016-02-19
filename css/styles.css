@@ -1,5 +1,5 @@
 body{font-family:Roboto;margin:0;}
-#title{text-align:center;padding-top:100px;padding-bottom:50px;min-width:380px;width:380px;}
+#title{text-align:center;padding-top:100px;padding-bottom:50px;width:380px;}
 #logoimage{width:380px;height:auto;}
 .underline{text-decoration: underline;}
 .mdl-card {width: 320px;height: 320px;margin:0 auto;}
@@ -8,9 +8,11 @@ a{text-decoration:none;}
 .mdl-mini-footer{margin-top:50px;}
 #card2 .mdl-card__title {color: #fff;background:url('../image/opengapps.png') bottom right no-repeat #009688;background-position:center;}
 a{text-decoration:none;}
-.mdl-demo .is-small-screen #card1{
-float:right;}
 @media screen and (min-width: 840px) {
 #card1 {float:left;margin-left:30px;}
 #card2 {float:right;margin-right:30px;}
+}
+@media screen and (max-width: 380px) {
+#title{min-width:360px;width:100%;}
+#logoimage{width:100%;height:auto;}
 }
